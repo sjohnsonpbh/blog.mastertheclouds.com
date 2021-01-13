@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Creating a serverless blog systemdownloaded Node.jsupdated git
+installed Hexo 
+1sudo npm install -g hexo-cli 
+
+
+
+Navigate to the directory where you w"/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Scott Johnson"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="serverless"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Creating a serverless blog systemdownloaded Node.jsupdated git
+installed Hexo 
+1sudo npm install -g hexo-cli 
+
+
+
+Navigate to the directory where you w"/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="MasterTheClouds.com"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://blog.mastertheclouds.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://blog.mastertheclouds.comhttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>serverless - MasterTheClouds.com</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">MasterTheClouds.com</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/certifications">
+                            
+                                Certifications
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://github.com/sjohnsonpbh/">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/scott-johnson-a932b33b/">
+                            
+                                <i class="fa fa-linkedin fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://www.facebook.com/squatjohnson">
+                            
+                                <i class="fa fa-facebook fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>serverless</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2021-01-09
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="Creating-a-serverless-blog-system"><a href="#Creating-a-serverless-blog-system" class="headerlink" title="Creating a serverless blog system"></a>Creating a serverless blog system</h2><p>downloaded Node.js<br>updated git</p>
+<p>installed Hexo </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli </span><br></pre></td></tr></table></figure>
+
+
+
+<p>Navigate to the directory where you want your site to reside, then create a new empty project </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog.mastertheclouds.com</span><br></pre></td></tr></table></figure>
+<ul>
+<li>this clones a hexo-starter project from git</li>
+</ul>
+<p>#h2 Here are my hexo command notes:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li> makes a new post/file in the _posts folder</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>makes a draft post in the _posts/drafts folder</li>
+</ul>
+<p>you can use command to see the drafts temporarily</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server --draft</span><br></pre></td></tr></table></figure>
+
+
+<p>when you are ready to publish, use </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish &lt;filename&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>moves to a the _posts folder</li>
+</ul>
+<p>hexo new page <filename></p>
+<ul>
+<li>creates a dir with filename, used for an “About  us” type page</li>
+</ul>
+<p>I went over to github and created a public repository for blog.mastertheclouds.com.</p>
+<p>I then signed into the AWS console, and created a matching S3 bucket with versioning enabled, and encryption enabled using Server-side encryption Amazon S3 master-key (SSE-S3). I also enabled static website hosting.</p>
+<p>This bucket will be private, and can only be accessed by going through a Cloudfront distribution.</p>
+<p>arn:aws:s3:::blog.mastertheclouds.com</p>
+<p>note: need:<br>    index.html and error.html<br>    buildspec.yaml</p>
+<p>Setting up Cloudfront<br>using these settings: </p>
+<ul>
+<li>Redirect HTTP to HTTPS</li>
+<li>using a cache policy</li>
+<li><ul>
+<li>since this is primarily a development tool, using Managed-CachingDisabled</li>
+</ul>
+</li>
+<li>using a Custom SSL certificate, set for *.mastertheclouds.com</li>
+<li>security policy is set to TLSv1.2_2019</li>
+</ul>
+<p>Setting up Route 53<br> I went to my hosted zone, and added an A record to point to the distribution<br>d21o54m1ge68qs.cloudfront.net</p>
+<p>Creating a CodeBuild project<br>blog-mastertheclouds-com setup to point at the github repository.</p>
+<p>repo is <a target="_blank" rel="noopener" href="https://github.com/sjohnsonpbh/blog.mastertheclouds.com.git">https://github.com/sjohnsonpbh/blog.mastertheclouds.com.git</a><br>checked Webhook - rebuild every time a change is pushed</p>
+<p>use a Managed Image, Operaing system Ubuntu<br>using a buildspec.yaml file</p>
+<p>the build badge is:<br><a target="_blank" rel="noopener" href="https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiNCt3M2E4akw0SEJReGNrSEZGVFl6UzZENFo5aGRZYjMwWDFnZGsvM2p4ZWZYaVo3aU1xSGxZa0t3RmRoL29JbnI1dEJEbGxKa2RUWlljbk01ZVVXZlAwPSIsIml2UGFyYW1ldGVyU3BlYyI6ImE1OHJuK1ZQQUkyMzkwbFQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0=&amp;branch=master">https://codebuild.us-east-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiNCt3M2E4akw0SEJReGNrSEZGVFl6UzZENFo5aGRZYjMwWDFnZGsvM2p4ZWZYaVo3aU1xSGxZa0t3RmRoL29JbnI1dEJEbGxKa2RUWlljbk01ZVVXZlAwPSIsIml2UGFyYW1ldGVyU3BlYyI6ImE1OHJuK1ZQQUkyMzkwbFQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&amp;branch=master</a></p>
+<p>First build failed, no buildspec.yaml file. Rookie mistake…<br>Cloning the repo in VSCode</p>
+<p>setting up Git<br>git config –global user.name “Scott Johnson”<br>git config –global user.email <a href="mailto:&#115;&#106;&#111;&#104;&#x6e;&#115;&#x6f;&#x6e;&#x70;&#98;&#104;&#x40;&#121;&#x61;&#x68;&#111;&#111;&#46;&#x63;&#111;&#x6d;">&#115;&#106;&#111;&#104;&#x6e;&#115;&#x6f;&#x6e;&#x70;&#98;&#104;&#x40;&#121;&#x61;&#x68;&#111;&#111;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>manually added the buildspec.yml file and re-tried the Codebuild<br>failed again,<br>I now have 31 tabs open</p>
+<p>run this:<br>npm install -g npm</p>
+<p>setup a test for a word on index.html ?</p>
+<p>after installing Amplify CLI and signing into AWS, I created a new IAM user amplify-user, and then in the blog.mastertheclouds.com directory, I ran </p>
+<p>amplify init<br><img src="/images/pasted-0.png" alt="upload successful"></p>
+<p>amplify add hosting<br>￼<br><img src="/images/pasted-1.png" alt="upload successful">￼</p>
+<p>amplify publish -c</p>
+<p>￼</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+    <hr />
+    <h3>Comments:</h3>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=447811926249682";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="fb-comments" data-href="https://blog.mastertheclouds.com/2021/01/09/serverless/index.html" data-num-posts="5" data-width="100%" data-colorscheme="light"></div>
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/sjohnsonpbh/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2021 Scott Johnson<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
