@@ -18,4 +18,7 @@ I then started studing content for AWS Certified Solutions Architect on Udemy.
 ￼
 ![upload successful](/images/pasted-3.png)
 
-ere
+After taking this course, I was able to pass the AWS Certified Solutions Architect exam
+
+![upload successful](/images/pasted-6.png)
+
