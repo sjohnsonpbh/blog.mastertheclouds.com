@@ -3,14 +3,12 @@ version: 0.2
 phases:
   install:
     commands: 
-      - npm install -g hexo-cli
-      - npm install
-      - apt-get update
-      - apt-get install -y awscli
+      - npm ci
+    
 
   build: 
     commands:
-      - hexo generate
+      - npm run build
 
   post_build: 
     commands:
