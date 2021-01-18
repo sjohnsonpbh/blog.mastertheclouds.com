@@ -14,5 +14,5 @@ phases:
 
   post_build: 
     commands:
-      - cd public/ && aws s3 sync . s3://blog.mastertheclouds.com/
+      - cd source/ && aws s3 sync . s3://blog.mastertheclouds.com/
       
